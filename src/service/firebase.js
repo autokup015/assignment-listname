@@ -3,13 +3,13 @@ import "firebase/firestore";
 import "firebase/database";
 
 var firebaseConfig = {
-  apiKey: "AIzaSyAycuQ89WsqL6CkrIrbj3MsGX4vKTzrRzQ",
-  authDomain: "listname-19189.firebaseapp.com",
-  projectId: "listname-19189",
-  storageBucket: "listname-19189.appspot.com",
-  messagingSenderId: "678505110920",
-  appId: "1:678505110920:web:a862df275e96d0fc0aee3d",
-  measurementId: "G-RGZEJQ6HM0",
+  apiKey: "AIzaSyD6K9i-pGZ4MCaHa4po_v0pnNcc8Ywcwhc",
+  authDomain: "listname-vue.firebaseapp.com",
+  projectId: "listname-vue",
+  storageBucket: "listname-vue.appspot.com",
+  messagingSenderId: "635834429416",
+  appId: "1:635834429416:web:a22e92a8c79e8c94047e5d",
+  measurementId: "G-WKKLV17SNQ",
 };
 
 firebase.initializeApp(firebaseConfig);
@@ -17,4 +17,3 @@ firebase.initializeApp(firebaseConfig);
 const database = firebase.database();
 
 export { database };
-
